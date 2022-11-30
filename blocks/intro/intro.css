@@ -1,0 +1,5 @@
+.intro {
+  max-height: 429px;
+  max-width: calc(100% - 296px);
+  margin: 114px auto 0;
+}
