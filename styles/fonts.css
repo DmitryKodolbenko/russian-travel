@@ -66,3 +66,11 @@
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  src: url(../vendor/Inter-Black.woff) format("woff"),
+  url(../vendor/Inter-Black.woff2) format("woff2");
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
