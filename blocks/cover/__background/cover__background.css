@@ -1,5 +1,5 @@
 .cover__background {
-  padding: 248px 0;
+  padding: calc((100% - 250px)/3.73) 0;
   background-image: url(../../../vendor/cover-trains.jpg);
   background-position: center center;
   background-size: cover;
@@ -31,3 +31,26 @@
    background-color: #2A2C2F;
    opacity: 0.8;
  }
+
+
+ @media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__background{
+    padding: calc((100% - 250px)/3.73) 0;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__background {
+    padding: calc((100% - 250px)/3.73) 0;
+
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover__background {
+    padding: calc((100% - 134px)/3.73) 0;
+
+  }
+}
