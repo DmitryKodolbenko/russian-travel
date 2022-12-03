@@ -1,5 +1,4 @@
 .lead {
-  max-height: 1005px;
   max-width: calc(100% - 296px);
   margin: 56px auto 0;
 }
@@ -23,5 +22,11 @@
   .lead {
     max-width: 100%;
     margin-top: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .lead {
+    max-width: 984px;
   }
 }

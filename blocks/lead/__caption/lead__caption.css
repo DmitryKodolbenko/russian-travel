@@ -1,8 +1,8 @@
 .lead__caption {
   margin: 0;
-  height: 14px;
+  height: 14px; /* Тут без высоты текст может становиться в две строки, а по макету высота на всех разрешениях одиннаковая */
 
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;

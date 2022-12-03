@@ -21,32 +21,8 @@
  }
 
  .cover__background:hover::after {
-   content: "";
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   z-index: -1;
-   background-color: #2A2C2F;
    opacity: 0.8;
  }
-
-
- @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover__background{
-    padding: calc((100% - 250px)/3.73) 0;
-
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover__background {
-    padding: calc((100% - 250px)/3.73) 0;
-
-
-  }
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__background {

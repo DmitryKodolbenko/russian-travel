@@ -1,5 +1,5 @@
 
 # Проект: Путешествие по России
 Данный проект является одностраничным адаптивным сайтом, повествующем о возможных для посещения места Росии.
-Сыылка на github проекта: https://github.com/DmitryKodolbenko/russian-travel
+Сыылка на github pages проекта: https://dmitrykodolbenko.github.io/russian-travel/
 

@@ -4,7 +4,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 18px;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -23,7 +23,13 @@
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;
-    gap: 32px;
+    justify-content: space-between;
 
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .footer {
+    max-width: 1184px;
   }
 }
