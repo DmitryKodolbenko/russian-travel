@@ -24,6 +24,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title {
+    min-width: calc(100% - 32px);
+    margin: 0 auto 0;
     font-size: 32px;
     line-height: 35px;
     /* identical to box height, or 109% */

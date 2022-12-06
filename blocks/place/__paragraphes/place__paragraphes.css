@@ -5,3 +5,11 @@
   gap: 26px;
   justify-content: start;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__paragraphes {
+    max-width: calc(100% - 32px);
+    margin: 0 auto 0;
+  }
+}
