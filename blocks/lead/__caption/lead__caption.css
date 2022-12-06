@@ -1,6 +1,5 @@
 .lead__caption {
   margin: 0;
-  height: 14px; /* Тут без высоты текст может становиться в две строки, а по макету высота на всех разрешениях одиннаковая */
 
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
@@ -14,4 +13,18 @@
 
   color: #FFFFFF;
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
